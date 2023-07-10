@@ -43,3 +43,12 @@
     background-color: #F4F4F4;
     padding: 50px;
 }
+.hotdel-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FDF6F8;
+}
+.left-site{
+    padding-top: 200px;
+    text-align: center;
+}
