@@ -2,6 +2,17 @@
     margin:0px,
     padding:0px,
 }
+
+
+
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
 body p{
  font-size: 14px;
  color:#938F90;
@@ -9,8 +20,10 @@ body p{
 .header-container{
     display: flex;
     background-color: #FCEEF1;
-   
-      
+     
+}
+.header-title{
+    font-size: 60px;
 }
 .header-img{
     width: auto;
@@ -71,6 +84,16 @@ body p{
     background-color: #FDF6F8;
     align-items: center;
 }
+.instagram-container{
+    width: 100vh;
+    margin: auto;
+}
+.ins-title{
+    font-size: 40px;
+}
+.ins-description{
+    margin-bottom: 20px;
+}
 .left-site{
     padding-top: 200px;
     text-align: center;
@@ -82,19 +105,29 @@ body p{
 }
 .flower-container{
     display: flex;
-    margin: 10px;
+   justify-content: space-around;
+}
+.img-div{
+    width: 342;
+    height: 396;
     
-   
-   
-
+    
 }
 .img-section{
     margin-top: 100px;
     
 }
+
+.br-image{
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    margin: 200px;
+
+}
 .footer-container{
     background-color: black;
-    margin-top: 100px;
+   
    
 
 }
@@ -103,8 +136,11 @@ body p{
     color: #FDF6F8;
     padding: 20px;
 }
-.btn-primary{
-    
-    width: 220px;
-    height: 100px;
+
+.btn{
+    background-color:#E55473;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20%;
 }
