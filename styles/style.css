@@ -71,7 +71,9 @@ body p{
     height: 300px;
     justify-content: center;
     padding: 60px;
+    
 }
+
 .three-img h3{
     text-align: center;
     margin-right:100px;
@@ -116,6 +118,7 @@ body p{
 .img-div{
     width: 342;
     height: 396;
+    
     
     
 }
@@ -176,3 +179,4 @@ body p{
     height: 40px;
     border-radius: 5%;
 }
+
