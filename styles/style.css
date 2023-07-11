@@ -44,6 +44,11 @@ body p{
     width: 100vh;
     margin: auto;
 }
+.feature-description{
+    font-family: regular;
+    font-size: 14px;
+    color:black;
+}
 .box-container{
     display: flex;
    justify-content: space-around;
@@ -104,8 +109,10 @@ body p{
 }
 .flower-container{
     display: flex;
+   gap: 40px;
    justify-content: space-around;
 }
+
 .img-div{
     width: 342;
     height: 396;
@@ -143,6 +150,7 @@ body p{
 .input-button{
     width: 500px;
     height: 34px;
+    margin-top: 20px;
 }
 .banner-button{
     text-align: center;
@@ -159,6 +167,7 @@ body p{
     color: #FDF6F8;
     padding: 20px;
 }
+
 
 .btn{
     background-color:#E55473;
