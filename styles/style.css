@@ -110,7 +110,8 @@ body p{
    
 }
 .flower-container{
-    display: flex;
+    display:flex;
+    
    gap: 40px;
    justify-content: space-around;
 }
@@ -178,5 +179,6 @@ body p{
     width: 120px;
     height: 40px;
     border-radius: 5%;
+    border: none;
 }
 
